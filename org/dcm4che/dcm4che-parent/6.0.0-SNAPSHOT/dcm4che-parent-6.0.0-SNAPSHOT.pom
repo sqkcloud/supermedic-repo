@@ -58,8 +58,8 @@
   </dependencies>
   <repositories>
     <repository>
-      <id>nroduit-mvn-repo-master</id>
-      <url>https://raw.github.com/nroduit/mvn-repo/master/</url>
+      <id>nroduit-supermedic-repo-master</id>
+      <url>https://raw.github.com/nroduit/supermedic-repo/master/</url>
     </repository>
   </repositories>
   <build>

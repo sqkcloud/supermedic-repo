@@ -16,8 +16,8 @@ This is the Maven repository for third-party libraries not available in Maven Ce
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-      <id>mvn-repo-master</id>
-      <url>https://raw.githubusercontent.com/nroduit/mvn-repo/master/</url>
+      <id>supermedic-repo-master</id>
+      <url>https://raw.githubusercontent.com/nroduit/supermedic-repo/master/</url>
     </repository>
   </repositories>
 ```

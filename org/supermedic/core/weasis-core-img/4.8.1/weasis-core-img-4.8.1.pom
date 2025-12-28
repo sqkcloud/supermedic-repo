@@ -59,8 +59,8 @@
       </snapshots>
     </repository>
     <repository>
-      <id>mvn-repo-master</id>
-      <url>https://raw.github.com/nroduit/mvn-repo/master/</url>
+      <id>supermedic-repo-master</id>
+      <url>https://raw.github.com/nroduit/supermedic-repo/master/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
