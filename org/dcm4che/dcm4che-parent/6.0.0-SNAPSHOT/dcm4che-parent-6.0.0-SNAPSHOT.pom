@@ -20,7 +20,7 @@
   </modules>
   <properties>
     <maven.compiler.release>13</maven.compiler.release>
-    <weasis.opencv.native.version>4.5.0-dcm</weasis.opencv.native.version>
+    <supermedic.opencv.native.version>4.5.0-dcm</supermedic.opencv.native.version>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <picocli.version>4.0.0-beta-1b</picocli.version>
     <slf4j.version>1.7.30</slf4j.version>
@@ -35,7 +35,7 @@
     <sonar.projectKey>dcm4che6</sonar.projectKey>
     <changelist>-SNAPSHOT</changelist>
     <sonar.moduleKey>${artifactId}</sonar.moduleKey>
-    <weasis.core.img.version>4.5.0.1</weasis.core.img.version>
+    <supermedic.core.img.version>4.5.0.1</supermedic.core.img.version>
   </properties>
   <dependencies>
     <dependency>

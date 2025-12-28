@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-dicom-tools</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-dicom-tools</artifactId>
 	<packaging>jar</packaging>
 	<name>Weasis DICOM API (based on dcm4che3)</name>
 	<version>0.9.5</version>
@@ -10,9 +10,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<connection>scm:git:git@github.com:nroduit/weasis-dicom-tools.git</connection>
-		<developerConnection>scm:git:https://nroduit@github.com/nroduit/weasis-dicom-tools.git</developerConnection>
-		<url>https://github.com/nroduit/weasis-dicom-tools</url>
+		<connection>scm:git:git@github.com:nroduit/supermedic-dicom-tools.git</connection>
+		<developerConnection>scm:git:https://nroduit@github.com/nroduit/supermedic-dicom-tools.git</developerConnection>
+		<url>https://github.com/nroduit/supermedic-dicom-tools</url>
 	</scm>
 	<repositories>
 		<repository>

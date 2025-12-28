@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.thirdparty</groupId>
+	<groupId>org.supermedic.thirdparty</groupId>
 	<artifactId>jaxb-osgi</artifactId>
 	<version>4.0.3</version>
 	<versioning>

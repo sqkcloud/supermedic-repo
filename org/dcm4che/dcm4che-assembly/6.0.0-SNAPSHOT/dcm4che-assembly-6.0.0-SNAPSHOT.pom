@@ -143,28 +143,28 @@
       <version>${janino.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.weasis.core</groupId>
-      <artifactId>weasis-core-img</artifactId>
-      <version>${weasis.core.img.version}</version>
+      <groupId>org.supermedic.core</groupId>
+      <artifactId>supermedic-core-img</artifactId>
+      <version>${supermedic.core.img.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
-      <version>${weasis.opencv.native.version}</version>
+      <version>${supermedic.opencv.native.version}</version>
       <type>so</type>
       <classifier>linux-x86-64</classifier>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
-      <version>${weasis.opencv.native.version}</version>
+      <version>${supermedic.opencv.native.version}</version>
       <type>jnilib</type>
       <classifier>macosx-x86-64</classifier>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>opencv_java</artifactId>
-      <version>${weasis.opencv.native.version}</version>
+      <version>${supermedic.opencv.native.version}</version>
       <type>dll</type>
       <classifier>windows-x86-64</classifier>
     </dependency>

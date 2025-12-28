@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.opencv</groupId>
-	<artifactId>weasis-opencv-core</artifactId>
+	<groupId>org.supermedic.opencv</groupId>
+	<artifactId>supermedic-opencv-core</artifactId>
 	<version>3.6.0-rc1</version>
 	<versioning>
 		<release>3.6.0-rc1</release>

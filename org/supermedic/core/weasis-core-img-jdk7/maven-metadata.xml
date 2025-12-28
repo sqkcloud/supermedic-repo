@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.core</groupId>
-	<artifactId>weasis-core-img-jdk7</artifactId>
+	<groupId>org.supermedic.core</groupId>
+	<artifactId>supermedic-core-img-jdk7</artifactId>
 	<version>4.2.1</version>
 	<versioning>
 		<release>4.2.1</release>

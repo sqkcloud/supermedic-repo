@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.thirdparty</groupId>
+	<groupId>org.supermedic.thirdparty</groupId>
 	<artifactId>tilecachetool</artifactId>
 	<version>1.0.2</version>
 	<versioning>

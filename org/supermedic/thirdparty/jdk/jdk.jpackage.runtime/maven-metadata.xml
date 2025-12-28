@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.thirdparty.jdk</groupId>
+	<groupId>org.supermedic.thirdparty.jdk</groupId>
 	<artifactId>jdk.jpackage.runtime</artifactId>
 	<version>13.0.0</version>
 	<versioning>

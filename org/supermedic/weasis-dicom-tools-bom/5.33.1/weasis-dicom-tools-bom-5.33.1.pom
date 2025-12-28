@@ -2,8 +2,8 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.weasis</groupId>
-  <artifactId>weasis-dicom-tools-bom</artifactId>
+  <groupId>org.supermedic</groupId>
+  <artifactId>supermedic-dicom-tools-bom</artifactId>
   <version>5.33.1</version>
   <packaging>pom</packaging>
   <name>Weasis DICOM API - BOM</name>
@@ -24,7 +24,7 @@
     <changelist></changelist>
     <revision>5.33.1</revision>
     <dcm4che.version>5.33.1</dcm4che.version>
-    <weasis.core.img.version>4.11.0</weasis.core.img.version>
+    <supermedic.core.img.version>4.11.0</supermedic.core.img.version>
   </properties>
   <repositories>
     <repository>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-isowriter</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-isowriter</artifactId>
 	<version>2.0.7</version>
 	<versioning>
 		<release>2.0.7</release>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis.thirdparty.javax.jnlp</groupId>
+	<groupId>org.supermedic.thirdparty.javax.jnlp</groupId>
 	<artifactId>javaws</artifactId>
 	<version>1.6.0-17</version>
 	<versioning>

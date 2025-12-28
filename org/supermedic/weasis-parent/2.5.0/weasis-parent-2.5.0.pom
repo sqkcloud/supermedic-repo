@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- Shared parent. Define the settings common to all projects using Weasis -->
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-parent</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-parent</artifactId>
 	<version>2.5.0</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
@@ -226,13 +226,13 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.weasis.thirdparty.com.sun.media</groupId>
+			<groupId>org.supermedic.thirdparty.com.sun.media</groupId>
 			<artifactId>jai-lib</artifactId>
 			<version>1.1.4-b07</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.weasis.thirdparty</groupId>
+			<groupId>org.supermedic.thirdparty</groupId>
 			<artifactId>docking-frames</artifactId>
 			<version>1.1.2-P18a</version>
 			<scope>provided</scope>

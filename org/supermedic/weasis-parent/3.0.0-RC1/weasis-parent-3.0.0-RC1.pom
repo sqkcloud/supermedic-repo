@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- Shared parent. Define the settings common to all projects using Weasis -->
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-parent</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-parent</artifactId>
 	<version>3.0.0-RC1</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
@@ -33,7 +33,7 @@
 		<slf4j.version>1.7.25</slf4j.version>
 		<sling.commons.log.version>3.0.2-r3</sling.commons.log.version>
 		<dockingframes.version>1.1.2-P19</dockingframes.version>
-        <weasis.opencv.native.version>3.4.0-dcmR3</weasis.opencv.native.version>
+        <supermedic.opencv.native.version>3.4.0-dcmR3</supermedic.opencv.native.version>
 		<com.sun.media.j3d.version>1.5.2</com.sun.media.j3d.version>
 		<tilecachetool.version>1.0.2</tilecachetool.version>
 	</properties>
@@ -286,7 +286,7 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty</groupId>
+				<groupId>org.supermedic.thirdparty</groupId>
 				<artifactId>docking-frames</artifactId>
 				<version>${dockingframes.version}</version>
 				<scope>provided</scope>
@@ -294,7 +294,7 @@
 
 			<!--The following dependencies are not required for compilation (required when loading the OSGI framework for debugging) -->
 			<dependency>
-				<groupId>org.weasis.thirdparty.javax.jnlp</groupId>
+				<groupId>org.supermedic.thirdparty.javax.jnlp</groupId>
 				<artifactId>javaws</artifactId>
 				<version>1.6.0-17</version>
 				<type>jar</type>
@@ -354,31 +354,31 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty.com.sun.media</groupId>
+				<groupId>org.supermedic.thirdparty.com.sun.media</groupId>
 				<artifactId>jai-lib-linux-x86</artifactId>
 				<version>${jai.native.version}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty.com.sun.media</groupId>
+				<groupId>org.supermedic.thirdparty.com.sun.media</groupId>
 				<artifactId>jai-lib-linux-x86-64</artifactId>
 				<version>${jai.native.version}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty.com.sun.media</groupId>
+				<groupId>org.supermedic.thirdparty.com.sun.media</groupId>
 				<artifactId>jai-lib-windows-x86</artifactId>
 				<version>${jai.native.version}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty.com.sun.media</groupId>
+				<groupId>org.supermedic.thirdparty.com.sun.media</groupId>
 				<artifactId>vecmath</artifactId>
 				<version>${com.sun.media.j3d.version}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.weasis.thirdparty</groupId>
+				<groupId>org.supermedic.thirdparty</groupId>
 				<artifactId>tilecachetool</artifactId>
 				<version>${tilecachetool.version}</version>
 				<scope>provided</scope>

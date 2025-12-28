@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
-		<artifactId>weasis-opencv-parent</artifactId>
-		<groupId>org.weasis.opencv</groupId>
+		<artifactId>supermedic-opencv-parent</artifactId>
+		<groupId>org.supermedic.opencv</groupId>
 		<version>3.0.2-rc1</version>
-		<relativePath>../weasis-opencv-parent/pom.xml</relativePath>
+		<relativePath>../supermedic-opencv-parent/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>weasis-opencv-core</artifactId>
+	<artifactId>supermedic-opencv-core</artifactId>
 	<packaging>bundle</packaging>
 	<name>OpenCV Java Wrapper [${project.artifactId}]</name>
 	<properties>
@@ -38,7 +38,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.weasis.thirdparty.org.opencv</groupId>
+									<groupId>org.supermedic.thirdparty.org.opencv</groupId>
 									<artifactId>opencv</artifactId>
 									<version>4.0.0-dcmR1</version>
 									<classifier>sources</classifier>

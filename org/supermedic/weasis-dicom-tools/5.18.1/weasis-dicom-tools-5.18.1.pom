@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-dicom-tools</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-dicom-tools</artifactId>
 	<packaging>jar</packaging>
 	<name>Weasis DICOM API (based on dcm4che3)</name>
 	<version>5.18.1</version>
@@ -13,7 +13,7 @@
 		<enforcer.jdk-version>[${java-version},)</enforcer.jdk-version>
 		<enforcer.maven-version>[3.0.5,)</enforcer.maven-version>
 		<dcm4che.version>5.18.1</dcm4che.version>
-		<weasis.version>3.5.3</weasis.version>
+		<supermedic.version>3.5.3</supermedic.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -27,9 +27,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:nroduit/weasis-dicom-tools.git</connection>
-		<developerConnection>scm:git:https://github.com/nroduit/weasis-dicom-tools.git</developerConnection>
-		<url>https://github.com/nroduit/weasis-dicom-tools</url>
+		<connection>scm:git:git@github.com:nroduit/supermedic-dicom-tools.git</connection>
+		<developerConnection>scm:git:https://github.com/nroduit/supermedic-dicom-tools.git</developerConnection>
+		<url>https://github.com/nroduit/supermedic-dicom-tools</url>
 	</scm>
 
 	<repositories>
@@ -179,9 +179,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.weasis.core</groupId>
-			<artifactId>weasis-core-util</artifactId>
-			<version>${weasis.version}</version>
+			<groupId>org.supermedic.core</groupId>
+			<artifactId>supermedic-core-util</artifactId>
+			<version>${supermedic.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.dcm4che</groupId>

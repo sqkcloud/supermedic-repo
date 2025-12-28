@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-dicom-tools</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-dicom-tools</artifactId>
 	<packaging>jar</packaging>
 	<name>Weasis DICOM API (based on dcm4che3)</name>
 	<version>5.22.6</version>
@@ -15,7 +15,7 @@
 		<dcm4che.version>${project.version}</dcm4che.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<sonar.projectKey>weasis-dicom-tools</sonar.projectKey>
+		<sonar.projectKey>supermedic-dicom-tools</sonar.projectKey>
   		<sonar.organization>nroduit-github</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
@@ -29,16 +29,16 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:nroduit/weasis-dicom-tools.git</connection>
-		<developerConnection>scm:git:https://github.com/nroduit/weasis-dicom-tools.git</developerConnection>
-		<url>https://github.com/nroduit/weasis-dicom-tools</url>
+		<connection>scm:git:git@github.com:nroduit/supermedic-dicom-tools.git</connection>
+		<developerConnection>scm:git:https://github.com/nroduit/supermedic-dicom-tools.git</developerConnection>
+		<url>https://github.com/nroduit/supermedic-dicom-tools</url>
 	</scm>
 
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub Weasis Maven Packages</name>
-			<url>https://maven.pkg.github.com/nroduit/weasis-dicom-tools</url>
+			<url>https://maven.pkg.github.com/nroduit/supermedic-dicom-tools</url>
 		</repository>
 	</distributionManagement>
 	<repositories>

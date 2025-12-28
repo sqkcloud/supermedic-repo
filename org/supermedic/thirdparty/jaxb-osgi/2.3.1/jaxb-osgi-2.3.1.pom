@@ -2,18 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
-		<artifactId>weasis-parent</artifactId>
-		<groupId>org.weasis</groupId>
+		<artifactId>supermedic-parent</artifactId>
+		<groupId>org.supermedic</groupId>
 		<!-- Remove "-SNAPSHOT" for release -->
 		<version>3.0.3-SNAPSHOT</version>
-		<relativePath>../weasis-parent/pom.xml</relativePath>
+		<relativePath>../supermedic-parent/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.weasis.thirdparty</groupId>
+	<groupId>org.supermedic.thirdparty</groupId>
 	<artifactId>jaxb-osgi</artifactId>
 	<version>2.3.1</version>
 	<packaging>bundle</packaging>
-	<name>jaxb package for weasis</name>
+	<name>jaxb package for supermedic</name>
 	<properties>
 		<jaxb.osgi.version>2.3.1</jaxb.osgi.version>
 		<jaxb.api.version>2.3.1</jaxb.api.version>

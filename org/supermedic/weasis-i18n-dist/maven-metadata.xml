@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-	<groupId>org.weasis</groupId>
-	<artifactId>weasis-i18n-dist</artifactId>
+	<groupId>org.supermedic</groupId>
+	<artifactId>supermedic-i18n-dist</artifactId>
 	<version></version>
 	<versioning>
 		<release></release>

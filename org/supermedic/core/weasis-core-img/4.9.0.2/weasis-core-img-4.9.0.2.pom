@@ -2,8 +2,8 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.weasis.core</groupId>
-  <artifactId>weasis-core-img</artifactId>
+  <groupId>org.supermedic.core</groupId>
+  <artifactId>supermedic-core-img</artifactId>
   <version>4.9.0.2</version>
   <packaging>bundle</packaging>
   <name>Image processing (OpenCV)</name>
@@ -27,7 +27,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>so</type>
@@ -35,7 +35,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>so</type>
@@ -43,7 +43,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>so</type>
@@ -51,7 +51,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>dylib</type>
@@ -59,7 +59,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>libopencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>dylib</type>
@@ -67,7 +67,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>opencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>dll</type>
@@ -75,7 +75,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.weasis.thirdparty.org.opencv</groupId>
+      <groupId>org.supermedic.thirdparty.org.opencv</groupId>
       <artifactId>opencv_java</artifactId>
       <version>4.9.0-dcm</version>
       <type>dll</type>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-  <groupId>org.weasis</groupId>
-  <artifactId>weasis-dicom-tools-bom</artifactId>
+  <groupId>org.supermedic</groupId>
+  <artifactId>supermedic-dicom-tools-bom</artifactId>
   <version>5.34.1.2</version>
   <versioning>
     <release>5.34.1.2</release>

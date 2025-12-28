@@ -13,8 +13,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.weasis.core</groupId>
-  <artifactId>weasis-core-img</artifactId>
+  <groupId>org.supermedic.core</groupId>
+  <artifactId>supermedic-core-img</artifactId>
   <name>Image processing (OpenCV)</name>
   <version>4.4.0.1</version>
   <packaging>bundle</packaging>
@@ -28,7 +28,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <bundle.symbolicName>${project.artifactId}</bundle.symbolicName>
     <slf4j.version>1.7.29</slf4j.version>
-    <weasis.opencv.native.version>4.4.0-dcm</weasis.opencv.native.version>
+    <supermedic.opencv.native.version>4.4.0-dcm</supermedic.opencv.native.version>
   </properties>
 
   <licenses>
@@ -83,9 +83,9 @@
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>org.weasis.thirdparty.org.opencv</groupId>
+                  <groupId>org.supermedic.thirdparty.org.opencv</groupId>
                   <artifactId>opencv</artifactId>
-                  <version>${weasis.opencv.native.version}</version>
+                  <version>${supermedic.opencv.native.version}</version>
                   <classifier>sources</classifier>
                 </artifactItem>
               </artifactItems>
