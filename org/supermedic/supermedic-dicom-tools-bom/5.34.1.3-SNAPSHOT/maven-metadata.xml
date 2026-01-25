@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.supermedic</groupId>
+  <artifactId>supermedic-dicom-tools-bom</artifactId>
+  <versioning>
+    <lastUpdated>20260125142530</lastUpdated>
+    <snapshot>
+      <timestamp>20260125.142530</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.34.1.3-20260125.142530-2</value>
+        <updated>20260125142530</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>5.34.1.3-SNAPSHOT</version>
+</metadata>
